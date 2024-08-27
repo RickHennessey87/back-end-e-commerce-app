@@ -31,7 +31,7 @@ router.get('/:id', async (req, res) => {
       return;
     }
 
-    res.status(200).json(categories);
+    res.status(200).json(category);
 
   } catch (error) {
     res.status(500).json(error);
